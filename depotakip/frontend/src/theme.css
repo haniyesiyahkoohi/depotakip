@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  /* Temiz, e-ticaret tarzı açık tema */
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --surface-hover: #f0f7fc;
+  --border: #e2e6ea;
+  --brand: #1d8fd1;
+  --brand-dark: #146ba3;
+  --brand-light: #eaf5fc;
+  --danger: #e14b4b;
+  --warning: #e0952e;
+  --success: #2ba15c;
+  --text-primary: #1c2733;
+  --text-muted: #7a8592;
+
+  --font-mono: "IBM Plex Mono", monospace;
+  --font-sans: "IBM Plex Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}
+
+a {
+  color: inherit;
+}
+

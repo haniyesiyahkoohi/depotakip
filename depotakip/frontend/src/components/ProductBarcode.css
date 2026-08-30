@@ -1,0 +1,32 @@
+.product-barcode {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.product-barcode__image {
+    max-width: 100%;
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.product-barcode__print-btn {
+    padding: 9px 18px;
+    background: var(--brand);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.product-barcode__print-btn:hover {
+    background: var(--brand-dark);
+}

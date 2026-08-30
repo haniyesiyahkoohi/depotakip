@@ -1,0 +1,45 @@
+.skeleton-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.skeleton-card__image {
+  aspect-ratio: 1.2 / 1;
+  background: var(--border);
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+.skeleton-card__body {
+  padding: 14px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skeleton-card__line {
+  border-radius: 3px;
+  background: var(--border);
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+.skeleton-card__line--sku {
+  width: 35%;
+  height: 9px;
+}
+
+.skeleton-card__line--title {
+  width: 80%;
+  height: 15px;
+}
+
+.skeleton-card__line--cat {
+  width: 50%;
+  height: 9px;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
